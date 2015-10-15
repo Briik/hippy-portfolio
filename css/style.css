@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,60 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html{
+	background-image:url("../images/pattern1.png");
+}
+h2, footer{
+	padding: 0 0 20px 10px;
+}
+header, footer{
+	background-color: #F1786F;
+}
+footer{
+	color: #FFFFFF;
+	text-align: right;
+}
+body {
+	max-width: 700px;
+	margin: 0 auto;
+	line-height: 1;
+	font-size: 14px;
+ 	font-family: "Times New Roman", serif;
+ 	color: black;
+	background-color: #F3EBE9;
+}
+h1{
+	padding: 10px 0 0 10px;
+ 	font-size: 50px;
+ 	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	   color: #FFFFFF;
+}
+h2{
+font-size: 18px;
+text-transform: uppercase;
+font-family: cursive, Helvetica, sans-serif;
+}
+h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.page{
+	padding: 10px;
+}
+.hero img{
+	width: 100%;
+}
+.imagerow img{
+	margin: auto;
+	width: 24%;
+	font-size: 0;
+	border: 3px solid #ccc;
+	box-sizing: border-box;
+}
